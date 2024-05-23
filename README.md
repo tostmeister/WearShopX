@@ -32,6 +32,7 @@
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/16d4a154-08d4-4ecd-ab87-ee9a6cfb9c0f)
 
 Окно чека:
+***
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/e63bb64c-6101-445e-ac23-1547bd278f34)
 
 ***
