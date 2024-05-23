@@ -19,23 +19,20 @@
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/0c8e486f-c1ee-4a37-84a6-b5cf5dde07d8)
 
 Окно склада:
-
+***
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/0f6b9f82-2f9a-49f5-944f-94ae4acf1dd5)
 
 Окно добавления элемента на склад:
+***
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/3d6e3a02-b3c2-463c-9205-2cb761e8d2a5)
 
-***
-
 Окно редактирования элемента на складе:
+***
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/16d4a154-08d4-4ecd-ab87-ee9a6cfb9c0f)
 
 Окно чека:
 ***
 ![image](https://github.com/tostmeister/WearShopX/assets/112758747/e63bb64c-6101-445e-ac23-1547bd278f34)
-
-***
-
 
 ***
 P.S.(запуск проекта)
