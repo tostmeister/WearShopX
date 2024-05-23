@@ -1,4 +1,3 @@
-![image](https://github.com/tostmeister/WearShopX/assets/112758747/b6132a65-3263-44ed-9c18-5849bcd7cda9)
 # 2.1 Описание приложения
 ***
 
