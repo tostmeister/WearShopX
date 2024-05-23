@@ -1,0 +1,51 @@
+﻿<Window x:Class="WearShopX.Windows.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WearShopX.Windows"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Редактирование товара" FontSize="30" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center"></TextBlock>
+        <Grid Grid.Column="0" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+ 
+            </Grid.RowDefinitions>
+            <TextBlock Text="id" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="0" Grid.Column="0"></TextBlock>
+            <TextBlock Text="Название" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="0"></TextBlock>
+            <TextBlock Text="Цена" Grid.Row="2" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="0"></TextBlock>
+            <TextBlock Text="Размер" Grid.Row="3" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="0"></TextBlock>
+            <TextBlock Text="Категория" Grid.Row="4" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="0"></TextBlock>
+
+            <TextBox x:Name="TextId" Grid.Row="0" Grid.Column="1"></TextBox>
+            <TextBox Name="TextName" Grid.Row="1" Grid.Column="1"></TextBox>
+            <TextBox Name="TextPrice" Grid.Row="2" Grid.Column="1"></TextBox>
+            <TextBox Name="TextSize" Grid.Row="3" Grid.Column="1"></TextBox>
+            <TextBox Name="TextCategory" Grid.Row="4" Grid.Column="1"></TextBox>
+
+        </Grid>
+        <Button Name ="Save" Content="Сохранить" FontSize="30" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Click="WriteChanges"></Button>
+    </Grid>
+</Window>
